@@ -33,13 +33,13 @@ x-category: "Science & Math"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Science And Math
   - Public APIs
+  - Science
+  - Biodiversity
 apis:
   - name: GBIF
     description: "Global Biodiversity Information Facility"
     humanURL: https://www.gbif.org/developer/summary
-    baseURL: https://www.gbif.org/developer/summary
     tags:
       - Science And Math
     properties:
@@ -55,3 +55,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Science And Math
