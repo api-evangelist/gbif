@@ -1,0 +1,51 @@
+edges:
+- partner_name: ELIXIR bio.tools (Web API records)
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  channel: standard-directory
+  relationship: standard-participant
+  evidence: https://bio.tools/t?toolType=%22Web%20API%22
+  match:
+    method: domain
+    domain: gbif.org
+    seen_as:
+    - credit url (Person)
+    - homepage
+    registered_as:
+    - GBIF occurrence WS
+    - GBIF taxon WS
+  life_sciences:
+    register: biotools
+    listings:
+    - id: gbif_occurrence_ws
+      name: GBIF occurrence WS
+    - id: gbif_taxon_ws
+      name: GBIF taxon WS
+    listings_total: 2
+    signals:
+    - Data management
+  contract_reference:
+    register: ELIXIR bio.tools (Web API records)
+    spec_file: null
+    role: biotools-web-api
+    registered_name: GBIF occurrence WS
+    register_id: gbif_occurrence_ws
+    matched_domain: gbif.org
+    detected_by: sweep-life-sciences.py
+    detected: '2026-10-15'
+  detected_by: sweep-life-sciences.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+source:
+- https://bio.tools/api/tool/?format=json&toolType=%22Web%20API%22&page=1
+- https://registry.api.identifiers.org/resolutionApi/getResolverDataset
+- https://registry.ga4gh.org/v1/implementations
+- https://registry.ga4gh.org/v1/services
+checked:
+- https://bio.tools/api/tool/?format=json&toolType=%22Web%20API%22&page=1
+- https://registry.api.identifiers.org/resolutionApi/getResolverDataset
+- https://registry.ga4gh.org/v1/implementations
+- https://registry.ga4gh.org/v1/services
