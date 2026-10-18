@@ -40,7 +40,8 @@ apis:
   - name: GBIF
     description: "Global Biodiversity Information Facility"
     humanURL: https://www.gbif.org/developer/summary
-    tags:
+    tags: []
+    tags_raw:
       - Science And Math
     properties:
       - type: Documentation
